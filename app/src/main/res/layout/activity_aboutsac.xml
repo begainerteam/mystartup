@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/aboutbg"
+
+    >
+
+
+    <TextView
+        android:id="@+id/titleField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:text="About My Startup"
+        android:textSize="25sp"
+        android:maxLines="13"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+
+
+
+
+        android:id="@+id/txtDetails"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:text="@string/textview"
+
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:textSize="23sp"
+        android:maxLines="10"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/titleField"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/titleField"
+        android:autoLink="web"
+
+        />
+
+    <Button
+        android:id="@+id/new_Post"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@mipmap/ic_bulb"
+        android:layout_marginEnd="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/txtDetails"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:text="@string/post_your_idea"
+        android:layout_alignBaseline="@+id/new_Post"
+        android:layout_alignBottom="@+id/new_Post"
+        android:layout_toStartOf="@+id/new_Post"
+        android:layout_marginEnd="28dp" />
+
+</RelativeLayout>

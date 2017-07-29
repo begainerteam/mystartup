@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "978397523678",
+    "firebase_url": "https://bharat-ys.firebaseio.com",
+    "project_id": "bharat-ys",
+    "storage_bucket": "bharat-ys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978397523678:android:c8451daa5232227e",
+        "android_client_info": {
+          "package_name": "com.simplesite.komalauthor.bharatyuvasangh2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978397523678-jbc49fkb25r76ips5rhb3cggvtapi3rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simplesite.komalauthor.bharatyuvasangh2017",
+            "certificate_hash": "ce81d2298f7c98028de640402c4b14af36e81e92"
+          }
+        },
+        {
+          "client_id": "978397523678-6ggjt1jd4iethpdc8talb3jbcvue8vla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKioqQ-2krHkBjbVaGpsXtCZ7lplnQGh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978397523678-6ggjt1jd4iethpdc8talb3jbcvue8vla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
